@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: URL('./src/assets/pixil-background.png');
+    background-size: cover;
+  }
+  
+  .card{
+    display: flex;
+    position: relative;
+    justify-content: center; 
+    background-color: #fff;
+    align-items: center;     
+    height: 100vh;           
+  }
+  
+  h1, span, p{
+    font-family: "Pixelify Sans", sans-serif;
+  }
+
+  
