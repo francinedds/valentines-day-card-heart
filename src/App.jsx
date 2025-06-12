@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import bg from './assets/pixil-background.png';
 import './App.css';
 
 import img0 from './assets/pixil-frame-0.png';
@@ -17,7 +18,10 @@ function App() {
   };
 
   return (
-    <div className="flex items-center justify-center w-screen h-screen">
+      <div
+        style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover' }}
+        className="flex items-center justify-center w-screen h-screen"
+      >
       <div className="border-3 border-black px-3 py-3 bg-[#e0173f] rounded-md shadow-lg">
         <div className="flex items-center justify-between px-3 py-3 bg-[#e0173f] text-white text-xl">
           <span>For you! &lt;3</span>
